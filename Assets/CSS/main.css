@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: solid 1px black
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+header{
+    background-image: url(../IMG/Sonrisa-dientes.jpeg);
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+}
+#main-container header #menu{
+    padding: 50px;
+}
+
+header #menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+header #menu ul li{
+    display: inline-block;
+    padding: 10;
+    vertical-align: middle;
+}
+
+header #menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+header #menu ul li a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+
+header #menu ul #logo{
+    size: 100px;
+
+}
+
+#main-container header main{
+    margin: 0 auto;
+    width: 1400px;
+}
+
+#main-container header main div{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+#main-container header main .text h1{
+    font-size: 80px;
+}
+
+#main-container header main .text h3{
+    font-size: 50px;
+}
+
+.banner{
+    background: url(../IMG/Sonrisa-dientes.jpeg);
+    background-repeat: no-repeat;
+    background-size: 25% 100%;
+    background-attachment: fixed;
+}
